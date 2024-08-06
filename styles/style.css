@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.bg-dark {
+  background-color: rgba(17, 17, 17, 1);
+}
+/* Common Styles */
+.display-flex {
+  display: flex;
+}
+.navbar,
+.banner {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* Header Container CSS starts here */
+.navbar {
+  justify-content: space-between;
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
+.brand-name {
+  color: #e6533c;
+  font-size: 2.25rem;
+  font-weight: 800px;
+  font-style: italic;
+}
+.menu {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+}
+.menu .menu-item {
+  list-style-type: none;
+  margin-right: 47px;
+  padding: 10px 20px;
+}
+.menu .menu-item a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 1rem;
+  color: #fff;
+}
+.menu-item-1 {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
+.banner {
+  position: relative;
+  align-items: center;
+}
+.banner-text .banner-heading {
+  color: #fff;
+  font-size: 78px;
+  font-weight: 900;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+#shape {
+  font-family: "Dancing Script", cursive;
+}
+.banner-text > p {
+  color: rgba(255, 255, 255, 0.5);
+  padding-right: 220px;
+  margin-bottom: 30px;
+}
+.banner-button {
+  margin-bottom: 50px;
+}
+.banner-btn-left {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+  border: none;
+}
+.banner-btn-right {
+  border-radius: 46px;
+  background: #000;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #fff;
+}
+.banner-img {
+  margin-right: 50px;
+}
+.card-350 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur;
+  width: 220px;
+  height: 100px;
+  border-radius: 20px;
+  position: absolute;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  bottom: 100px;
+  left: 550px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #e6533c;
+  border-radius: 100%;
+}
+
+.card-text-350 > h4 {
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(250, 250, 249);
+}
+.card-text-350 > p {
+  color: rgba(239, 237, 232, 0.65);
+}
+.card-500 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur;
+  width: 190px;
+  border-radius: 20px;
+  position: absolute;
+  padding: 20px 10px;
+  top: 150px;
+  right: -20px;
+}
+.card-text-500 > h4 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+}
+.card-text-500 > p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+}
