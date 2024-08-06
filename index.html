@@ -27,11 +27,7 @@
             transformation stories to help you get fit and stay fit!
           </p>
           <div class="banner-button">
-            <input
-              class="banner-btn-left"
-              type="button"
-              value="Join Club Now!"
-            />
+            <input class="btn-common" type="button" value="Join Club Now!" />
             <input
               class="banner-btn-right"
               type="button"
@@ -89,44 +85,102 @@
             </div>
           </div>
         </div>
-        <div class="extra-mile-part">
-          <div>
-            <h3>Run an Extra Mile Easily</h3>
+      </section>
+      <section class="bg-dark">
+        <div class="extra-mile-part display-flex">
+          <div class="extra-mile-text">
+            <h3>Run an Extra <br />Mile Easily</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
               ad ipsum accusamus recusandae amet. Maiores laborum minus
               veritatis ipsum sit?
             </p>
-            <button type="button">Join Now</button>
+            <button class="btn-common btn-extra-mile" type="button">
+              Join Now
+            </button>
           </div>
-          <div>
+          <div class="extra-mile-img">
             <img src="./images/run.jpg" alt="" />
           </div>
         </div>
       </section>
-      <section class="bmi-section">
-        <h3>BMI Calculator</h3>
-        <p>
-          BMI calculator is very useful to everyone for know about their health.
-        </p>
-        <div>
-          <div class="chart-part">
-            <h5>BMI Calculator Chart</h5>
-          </div>
-          <div class="bmi-part">
-            <h5>Calculate your BMI</h5>
+      <section class="bmi-section-up">
+        <div class="bmi-part-up">
+          <div class="bmi-text">
+            <h3>BMI Calculator</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-              adipisci.
+              BMI calculator is very useful to everyone for know about their
+              health.
             </p>
-            <div>
-              <input type="text" placeholder="Height/cm" />
-              <input type="text" placeholder="Weight/kg" />
-              <input type="text" placeholder="Age" />
-              <input type="text" placeholder="sex" />
-              <input type="text" placeholder="Select an activity factor" />
+          </div>
+        </div>
+      </section>
+      <section class="bmi-section-down">
+        <div class="bmi-part-down">
+          <div class="display-flex chart-wrapper">
+            <div class="chart-part">
+              <h5>BMI Calculator Chart</h5>
+              <table class="table">
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </table>
             </div>
-            <button type="button">Calculate</button>
+            <div class="calculate-part">
+              <h5>Calculate your BMI</h5>
+              <p>
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+              <form action="">
+                <div class="form-container">
+                  <div class="display-flex">
+                    <div>
+                      <input type="text" placeholder="Height/cm" />
+                    </div>
+                    <div>
+                      <input type="text" placeholder="Weight/kg" />
+                    </div>
+                  </div>
+                  <div class="display-flex">
+                    <div>
+                      <input type="text" placeholder="Age" />
+                    </div>
+                    <div>
+                      <select name="" id="">
+                        <option>sex</option>
+                        <option>male</option>
+                        <option>female</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="factor">
+                    <input
+                      type="text"
+                      placeholder="Select an activity factor"
+                    />
+                  </div>
+                </div>
+              </form>
+              <button type="button">Calculate</button>
+            </div>
           </div>
         </div>
       </section>

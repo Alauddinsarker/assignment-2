@@ -17,11 +17,23 @@ body {
 }
 .navbar,
 .banner,
-.habit-section {
+.habit-section,
+.extra-mile-part,
+.bmi-part-up,
+.bmi-part-down {
   max-width: 1060px;
   margin: 0 auto;
 }
-
+.btn-common {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+  border: none;
+}
 /* Header Container CSS starts here */
 .navbar {
   justify-content: space-between;
@@ -75,16 +87,7 @@ body {
 .banner-button {
   margin-bottom: 50px;
 }
-.banner-btn-left {
-  border-radius: 46px;
-  background: rgb(230, 83, 60);
-  padding: 10px 20px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  margin-right: 20px;
-  border: none;
-}
+
 .banner-btn-right {
   border-radius: 46px;
   background: #000;
@@ -197,4 +200,111 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 232px;
+}
+
+/* Extra Mile CSS */
+
+.extra-mile-part {
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.extra-mile-text {
+  padding-left: 10px;
+}
+.extra-mile-text > h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+}
+.extra-mile-text > p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  width: 450px;
+  padding: 15px 0px;
+}
+.btn-extra-mile {
+  padding: 10px 50px;
+}
+.extra-mile-img {
+  width: 40%;
+}
+.extra-mile-img img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+/* BMI Part CSS */
+
+.bmi-section-down {
+  background: rgb(34, 34, 34);
+}
+.bmi-text {
+  margin: 50px 150px;
+}
+.bmi-text > h3 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.bmi-text > p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.bmi-part {
+  margin: 1px solid red;
+}
+.chart-wrapper {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.chart-part > h5 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.table {
+  color: #fff;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px 10px;
+}
+th {
+  font-size: 16px;
+  font-weight: 500;
+}
+td {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.calculate-part > h5 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.calculate-part > p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  width: 575px;
+}
+.form-container {
+}
+.form-container input {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
 }
