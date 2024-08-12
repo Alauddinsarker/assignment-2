@@ -252,6 +252,7 @@ hr {
 
 .bmi-section-down {
   background: rgb(34, 34, 34);
+  padding: 40px 0px;
 }
 .bmi-text {
   margin: 50px 150px;
@@ -265,9 +266,6 @@ hr {
 .bmi-text > p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-}
-.bmi-part {
-  margin: 1px solid red;
 }
 .chart-wrapper {
   align-items: center;
@@ -312,14 +310,28 @@ td {
   margin-bottom: 20px;
   width: 575px;
 }
+.form-container {
+  width: 570px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.option {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+}
 
-.form-container input {
+.form-container input,
+select {
   border: none;
   border-radius: 8px;
   padding: 10px;
   background: rgba(255, 255, 255, 0.1);
+  width: 270px;
 }
-
+.factor {
+  width: 560px;
+}
 /* Meet Our Team Section CSS */
 .team-section {
   display: flex;
