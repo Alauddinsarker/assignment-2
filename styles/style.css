@@ -21,7 +21,8 @@ body {
 .extra-mile-part,
 .bmi-part-up,
 .bmi-part-down,
-.team-section {
+.team-section,
+.footer, hr {
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -333,7 +334,7 @@ td {
 }
 .trainer-wrapper {
   padding: 10px;
-  
+
   border-radius: 18px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -364,4 +365,68 @@ td {
   left: 10px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
+}
+/* Footer CSS */
+.footer-container {
+  background: rgb(34, 34, 34);
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.footer {
+  gap: 100px;
+  padding-bottom: 50px;
+}
+.footer-left {
+  width: 440px;
+}
+.footer-left > h1 {
+  color: rgb(230, 83, 60);
+  font-size: 70px;
+  font-weight: 800;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.footer-left > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  text-align: left;
+}
+.footer-center >h4{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+padding-bottom: 20px;
+}
+.footer-center >p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 23px;
+text-align: left;
+padding-bottom: 10px;
+
+}
+.footer-right >h4{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+padding-bottom: 20px;
+}
+.footer-right >p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 23px;
+text-align: left;
+padding-bottom: 10px;
+
+}
+.footer-container >p{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding-top: 20px;
+}
+hr{
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
 }
