@@ -10,8 +10,8 @@
     <header class="bg-dark">
       <nav class="navbar display-flex">
         <h3 class="brand-name">Fitness</h3>
-        <div>
-          <ul class="menu display-flex">
+        <div class="">
+          <ul class="menu display-flex menu-items">
             <li class="menu-item menu-item-1"><a href="">Home</a></li>
             <li class="menu-item"><a href="">Service</a></li>
             <li class="menu-item"><a href="">Contact</a></li>
@@ -62,7 +62,7 @@
       <section class="habit-section">
         <div class="habit-text">
           <h3>Change Your Habits</h3>
-          <p>
+          <p id="habbit-text-p">
             Don’t wait to start feeling your best—come experience the difference
             at our gym and take the first step toward a healthier, happier you!
           </p>
@@ -113,8 +113,9 @@
           <div class="bmi-text">
             <h3>BMI Calculator</h3>
             <p>
-              BMI calculator is very useful to everyone for know about their
-              health.
+              BMI is a standard tool used globally in health assessments, making
+              it a familiar and consistent metric for comparing and tracking
+              weight-related health trends across different populations.
             </p>
           </div>
         </div>
@@ -170,18 +171,20 @@
                     </select>
                   </div>
                   <div>
-                    <select  class="option factor" name="" id="">
+                    <select class="option factor" name="" id="">
                       <option>Select an activity factor</option>
                     </select>
                   </div>
                 </div>
               </form>
-              <button class="btn-common btn-extra-mile" type="button">Calculate</button>
+              <button class="btn-common btn-extra-mile" type="button">
+                Calculate
+              </button>
             </div>
           </div>
         </div>
       </section>
-      <section class="team-section">
+      <section class="team-section display-none">
         <h3>Meet Our Team</h3>
         <p>
           We have world class trainers who are experienced in their field. They
@@ -221,7 +224,7 @@
           </div>
         </div>
       </section>
-      <section class="choose-section-container">
+      <section class="choose-section-container display-none">
         <div class="choose-section display-flex">
           <h3>Why choose us</h3>
           <p>
@@ -261,7 +264,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer-container">
+    <footer class="footer-container display-none">
       <div class="footer display-flex">
         <div class="footer-left">
           <h1>Fitness</h1>
