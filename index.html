@@ -158,29 +158,27 @@
                 We believe fitness should be accessible to everyone, everywhere,
                 regardless of income or access to a gym.
               </p>
-              <form action="">
-                <div class="form-container display-flex">
-                  <div>
-                    <input type="text" placeholder="Height/cm" />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Weight/kg" />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Age" />
-                  </div>
-                  <div id="gender-option">
-                    <select class="option" name="" id="">
-                      <option>Sex</option>
-                    </select>
-                  </div>
-                  <div>
-                    <select class="option factor" name="" id="">
-                      <option>Select an activity factor</option>
-                    </select>
-                  </div>
+              <div class="form-container display-flex">
+                <div class="input-1">
+                  <input class="option" type="text" placeholder="Height/cm" />
                 </div>
-              </form>
+                <div class="input-2">
+                  <input class="option" type="text" placeholder="Weight/kg" />
+                </div>
+                <div class="input-3">
+                  <input class="option" type="text" placeholder="Age" />
+                </div>
+                <div class="input-4" id="gender-option">
+                  <select class="option" name="" id="">
+                    <option class="option">Sex</option>
+                  </select>
+                </div>
+                <div class="input-5" id="factor-option">
+                  <select class="option factor" name="" id="">
+                    <option class="option">Select an activity factor</option>
+                  </select>
+                </div>
+              </div>
               <button class="btn-common btn-extra-mile" type="button">
                 Calculate
               </button>
@@ -271,7 +269,7 @@
     <footer class="footer-container">
       <div class="footer display-flex">
         <div class="footer-left">
-          <h1>Fitness</h1>
+          <h1 class="fitness">Fitness</h1>
           <p>
             We believe fitness should be accessible to everyone, everywhere,
             regardless of income or access to a gym. With hundreds of
