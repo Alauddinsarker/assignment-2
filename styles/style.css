@@ -233,14 +233,14 @@ hr {
 .extra-mile-text > p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-  width: 100%;
+  width: 60%;
   padding: 15px 0px;
 }
 #button-extra-mile {
-  width: 100%;
+  width: 50%;
 }
 .extra-mile-img {
-  width: 40%;
+  width: 100%;
 }
 .extra-mile-img img {
   width: 100%;
@@ -612,8 +612,11 @@ hr {
     font-weight: 900;
     color: #fff;
   }
-  .btn-extra-mile {
-    width: 95%;
+  .extra-mile-text > p {
+    width: 90%;
+  }
+  #button-extra-mile {
+    width: 100%;
   }
   .extra-mile-img {
     width: 90%;
@@ -719,9 +722,5 @@ hr {
   .footer-left > p {
     width: 80%;
     margin-bottom: -20px;
-  }
-
-  .border {
-    border: 2px solid red;
   }
 }
