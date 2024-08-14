@@ -604,6 +604,9 @@ hr {
   .habbit-cards {
     flex-direction: column;
   }
+  .habbit-cards > div {
+    margin-bottom: 50px;
+  }
   .extra-mile-part {
     flex-direction: column;
     justify-content: center;
