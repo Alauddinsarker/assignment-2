@@ -223,21 +223,21 @@ hr {
   justify-content: space-between;
 }
 .extra-mile-text {
-  padding-left: 10px;
+  width: 90%;
 }
 .extra-mile-text > h3 {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 900;
   color: #fff;
 }
 .extra-mile-text > p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-  width: 450px;
+  width: 100%;
   padding: 15px 0px;
 }
-.btn-extra-mile {
-  padding: 10px 50px;
+#button-extra-mile {
+  width: 100%;
 }
 .extra-mile-img {
   width: 40%;
@@ -530,13 +530,34 @@ hr {
   .banner {
     flex-direction: column;
   }
+  .banner-img {
+    margin: none;
+    width: 90%;
+  }
+  .banner-img img {
+    width: 100%;
+  }
   .card-350 {
-    left: 15px;
-    bottom: 220px;
+    width: 45%;
+    left: 1%;
+    bottom: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: auto;
   }
   .card-500 {
-    right: 10px;
-    top: 450px;
+    width: 40%;
+    height: 100px;
+    right: 10%;
+    top: 44%;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #e6533c;
+    border-radius: 100%;
   }
   .banner-text .banner-heading {
     color: #fff;
@@ -559,7 +580,11 @@ hr {
     font-size: 80px;
     line-height: 5px;
   }
+  .btn-common {
+    margin-right: 10px;
+  }
   /* Main Responsive CSS */
+
   .habit-text > h3 {
     font-size: 32px;
   }
@@ -581,6 +606,11 @@ hr {
   .extra-mile-part {
     flex-direction: column;
     justify-content: center;
+  }
+  .extra-mile-text > h3 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
   }
   .btn-extra-mile {
     width: 95%;
@@ -616,14 +646,14 @@ hr {
     padding: 5px 30px;
   }
   .calculate-part {
-    margin-left: 30px;
+    margin-left: 10px;
     margin: 0 auto;
   }
   .calculate-part > h5 {
     font-size: 16px;
   }
   .calculate-part > p {
-    width: 90%;
+    width: 70%;
   }
 
   .form-container input,
@@ -632,12 +662,66 @@ hr {
     border-radius: 8px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.1);
-    width: 240px;
+    width: 90%;
+  }
+  #gender-option {
+    width: 32%;
   }
   .factor {
-    width: 500px;
+    width: 177%;
   }
   .btn-extra-mile {
     width: 50%;
+  }
+  .team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .team-section > h3 {
+    font-size: 32px;
+  }
+  .team-section > p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .trainer-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .choose-section > h3 {
+    font-size: 32px;
+  }
+  .choose-section > p {
+    width: 90%;
+  }
+  .choose {
+    width: 90%;
+    flex-direction: column;
+  }
+  .choose-img {
+    width: 100%;
+    margin-bottom: -60px;
+  }
+  .choose-img img {
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    margin-bottom: -30px;
+  }
+  .footer-center {
+    margin-bottom: -40px;
+  }
+  .footer-left > p {
+    width: 80%;
+    margin-bottom: -20px;
+  }
+
+  .border {
+    border: 2px solid red;
   }
 }
